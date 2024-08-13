@@ -1,0 +1,105 @@
+<!DOCTYPE html>  
+<html lang="en">  
+
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="Bookstore.css">  
+    <title>Bookstore Online</title>  
+</head>  
+
+<body>  
+    <header>  
+        <img src="logo.webp" alt="Bookstore Logo" class="logo">  
+        <nav>  
+            <ul>  
+                <li><a href="#home">Home</a></li>  
+                <li><a href="#books">Books</a></li>  
+                <li><a href="#about">About Us</a></li>  
+                <li><a href="#contact">Contact</a></li>  
+            </ul>  
+        </nav>  
+        <img src="banner.png" alt="Bookstore Banner" class="banner">  
+    </header>  
+
+    <main>  
+        <h1>World's Largest Online Bookstore</h1>  
+
+        <h2 id="books">Available Books</h2>  
+        <table>  
+            <thead>  
+                <tr>  
+                    <th>Title</th>  
+                    <th>Author</th>  
+                    <th>Category</th>  
+                    <th>Best-Price</th>  
+                </tr>  
+            </thead>  
+            <tbody>  
+                <tr>  
+                    <td>The Jungle Book</td>  
+                    <td>Rudyard Keepling</td>  
+                    <td>Fiction</td>  
+                    <td>&#8377 190/-</td>  
+                </tr>  
+                <tr>  
+                    <td>Three Men In A Boat</td>  
+                    <td>Louis Gaitonde</td>  
+                    <td>Dystopian</td>  
+                    <td>&#8377 189/-</td>  
+                </tr>  
+                <tr>  
+                    <td>Hellen Keller</td>  
+                    <td>Stanley Obama</td>  
+                    <td>Fiction</td>  
+                    <td>&#8377 250/-</td>  
+                </tr>  
+                <tr>  
+                    <td>Titanic</td>  
+                    <td>Dwayne Johnson</td>  
+                    <td>Fantasy</td>  
+                    <td>&#8377 2000/-</td>  
+                </tr>  
+            </tbody>  
+        </table>  
+
+        <h2>Subscribe to Our Newsletter</h2>  
+        <form action="#" method="post">  
+            <label for="name">Name:</label>  
+            <input type="text" id="name" name="name" required>  
+
+            <label for="email">Email:</label>  
+            <input type="email" id="email" name="email" required>  
+
+            <label for="preferences">Preferences:</label>  
+            <select id="preferences" name="preferences">  
+                <option value="fiction">Fiction</option>  
+                <option value="non-fiction">Non-Fiction</option>  
+                <option value="mystery">Mystery</option>  
+                <option value="fantasy">Fantasy</option>  
+            </select>  
+            <br>
+            <br>
+
+            <button type="submit">Subscribe</button>  
+        </form>  
+
+        <h2>Watch Our Promotional Video</h2>  
+        <video controls>  
+            <source src="promo.mp4" type="video/mp4">  
+            Your browser does not support the video tag.  
+        </video>  
+    </main>  
+
+    <footer>  
+        <p>&copy; 2023 Bookstore. All rights reserved.</p>  
+        <p>  
+            Follow us on:  
+            <a href="https://facebook.com">Facebook</a>,  
+            <a href="https://twitter.com">Twitter</a>,  
+            <a href="https://instagram.com">Instagram</a>  
+        </p>  
+        <p>Contact us: info@bookstore.com</p>  
+    </footer>  
+</body>  
+</html>

@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    min-width: 100vw;
+    background-image: url("./bakery_dark_bg.jpg");
+    background-size: 100%;
+    background-repeat: repeat;
+    /* justify-content: center;
+    align-items: center; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed;    */
+    
+    
+
+
+}
+header{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    width: 100%;
+   
+}
+nav{
+    color: white;
+    margin: auto;
+    min-width: 200px;
+    width: 60vw;
+    text-align: center;
+    display: wrap;
+    justify-content: center;
+   
+    align-items: center;
+}
+button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: large;
+    
+}
+.divider {
+    height: 18px;
+    border: 1px solid white;
+    width: 0;
+    margin: 10px;
+}
+.cakeImage{
+    height: 200px;
+    /* margin-left: 100px; */
+}
+.cards_container {
+
+    display: flex;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+span{
+    color: white;
+    margin: auto;
+}
+.cakeDescription{
+    padding: 20px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    flex-direction: column;
+}
+
+.descriptionHeading{
+    font-style: italic;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.description{
+    font-style: italic;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+/* buy button */
+.buyBtn{
+margin: auto;
+padding: 2px 3px;
+background-color: black;
+font-size: 15px;
+border-radius: 5px;
+box-shadow: 0px 0px 5px 1px white;
+
+
+}
+.banner{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-width: 250px;
+    height: 30%;
+    width: 25% ;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    /* justify-content: center; */
+    position: relative;
+    /* border: 1px solid red; */
+}
+.banner_img{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    
+    
+    
+}
+.banner_offer{
+    position: absolute;
+    /* top: 5%;
+    left: 60%; */
+   font-weight: bolder;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px red;
+    align-items: center;
+    
+    
+
+}
+.horizontal_divider{
+    border-bottom: 100%;
+   background-color: darkgray;
+    height: 2px;
+
+}
+.footer{
+    margin: auto;
+    width: 100%;
+    /* height: 200px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    background-color: rgba(62, 58, 58, 0.433);
+    gap: 10px;
+
+}
+.footer_headings{
+    color: white;
+    
+}
+.footer_links{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 5px;
+    
+}
